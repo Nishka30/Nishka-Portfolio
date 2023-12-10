@@ -729,28 +729,3 @@ button:focus {
   padding-top: 10px !important;
 }
 
-.fork-btn-inner {
-  line-height: 1.4em !important;
-  background-color: #934cce5e !important;
-  padding: 0.25rem 1.1rem !important;
-  vertical-align: middle !important;
-  text-align: center !important;
-}
-
-.fork-btn-inner:hover {
-  transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
-}
-.fork-btn-inner::after {
-  display: none !important;
-}
-.img2{
-  height: 400px !important;
-  width: 350px !important;
-  border-radius: 50%;
-}
-.img3{
-  margin-top: -70px;  
-  height: 300px !important;
-}
