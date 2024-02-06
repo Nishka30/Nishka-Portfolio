@@ -29,7 +29,7 @@ function Projects() {
               title="One8Commune"
               description="
               Seamless platform for hassle-free restaurant table bookings and discovery of various locations. Elevate your dining experience with our user-friendly interface and real-time chatbot, ensuring not just efficiency but also a touch of personalized and friendly customer service."
-              ghLink="https://github.com/abhi-mis/FemMe-Power"
+              ghLink="https://github.com/Nishka30/One8Commune"
               demoLink="https://one8commune.netlify.app/"
               
             />
