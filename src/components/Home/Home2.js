@@ -106,7 +106,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://codepen.io/Nishka-shrimali"
+                  href="https://codepen.io/Nishka30"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
