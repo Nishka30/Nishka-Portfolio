@@ -76,7 +76,7 @@ function Footer() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://codepen.io/Nishka-shrimali"
+                  href="https://codepen.io/Nishka30"
                   target="_blank"
                   style={{ color: "white" }}
                   rel="noopener noreferrer"
