@@ -66,7 +66,7 @@ function Projects() {
               title="Leads Tracker"
               description="A Chrome extension designed for flawless lead management, seamlessly blending local storage prowess with optimized performance. Exciting news—it's now deployed and ready for seamless practical use, revolutionizing your workflow with unparalleled efficiency and precision!"
               ghLink="https://github.com/Nishka30/Leads-Tracker"
-              demoLink="https://nishka-leadstracker.netlify.app/"
+              demoLink="https://nishka-leads-tracker.netlify.app/"
             />
           </Col>
 
