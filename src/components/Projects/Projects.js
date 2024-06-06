@@ -92,6 +92,31 @@ function Projects() {
               demoLink="https://nishka-blackjack.netlify.app/"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={leads}
+              isBlog={false}
+              title="Pix Mender"
+              description="Developed and launched Pragati 2024 website for our annual technical tech fest, enabling seamless event 
+              exploration and registration for students. Implemented a user-friendly design, comprehensive event information, and 
+              interactive features for an enhanced user experience."
+              ghLink="https://github.com/Nishka30/PixMender"
+              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={leads}
+              isBlog={false}
+              title="Pragati 2024"
+              description="Created a web application for users to upload IDs, photos, and signatures in one go, with automatic sorting and storage in dedicated database folders. The system features secure data handling and an intuitive interface. This project showcases my expertise in web development, database management, and security."
+              ghLink="https://github.com/Nishka30/Pragati-2024"
+              demoLink="https://www.pragati2024.online/"
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>
