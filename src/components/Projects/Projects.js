@@ -8,6 +8,9 @@ import leads  from "../../Assets/Projects/leads.gif";
 import blackjack from "../../Assets/Projects/blackjack.gif";
 import empower from "../../Assets/Projects/empower.gif";
 import Tictactoe from "../../Assets/Projects/Tictactoe.gif";
+import pix from "../../Assets/Projects/pix.png";
+import pragati from "../../Assets/Projects/pragati.png";
+
 
 
 function Projects() {
@@ -22,6 +25,44 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pix}
+              isBlog={false}
+              title="Pix Mender"
+              description="Created a web application for users to upload IDs, photos, and signatures in one go, with automatic sorting and storage in dedicated database folders. The system features secure data handling and an intuitive interface. This project showcases my expertise in web development, database management, and security."
+              ghLink="https://github.com/Nishka30/PixMender"
+              
+            />
+          </Col>
+
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={tse}
+              isBlog={false}
+              title="T-Series Redefined"
+              description="
+              Revitalized T-Series website with a modern, user-friendly design, boasting a dynamic slider, direct links to songs and videos, concert booking, featured albums, news updates, global subscriber count, and upcoming movie releases for an immersive experience."
+              ghLink="https://github.com/Nishka30/T-Series-2.0"
+              demoLink="https://nishka-t-series.netlify.app/"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pragati}
+              isBlog={false}
+              title="Pragati 2024"
+              description="Developed and launched Pragati 2024 website for our annual technical tech fest, enabling seamless event 
+              exploration and registration for students. Implemented a user-friendly design, comprehensive event information, and 
+              interactive features for an enhanced user experience."
+              ghLink="https://github.com/Nishka30/Pragati-2024"
+              demoLink="https://www.pragati2024.online/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={one8}
@@ -35,6 +76,10 @@ function Projects() {
             />
           </Col>
 
+         
+
+
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={empower}
@@ -44,18 +89,6 @@ function Projects() {
               Your go-to women's empowerment hub, offering personalized job matching, a supportive chatbot, safety measures, employer partnerships, training, and a vibrant community. Redefining opportunities for rural women, fostering independence, and creating positive change."
               ghLink="https://github.com/Nishka30/FemMe-Power"
               demoLink="https://femmepower.netlify.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={tse}
-              isBlog={false}
-              title="T-Series Redefined"
-              description="
-              Revitalized T-Series website with a modern, user-friendly design, boasting a dynamic slider, direct links to songs and videos, concert booking, featured albums, news updates, global subscriber count, and upcoming movie releases for an immersive experience."
-              ghLink="https://github.com/Nishka30/T-Series-2.0"
-              demoLink="https://nishka-t-series.netlify.app/"              
             />
           </Col>
 
@@ -93,29 +126,9 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leads}
-              isBlog={false}
-              title="Pix Mender"
-              description="Developed and launched Pragati 2024 website for our annual technical tech fest, enabling seamless event 
-              exploration and registration for students. Implemented a user-friendly design, comprehensive event information, and 
-              interactive features for an enhanced user experience."
-              ghLink="https://github.com/Nishka30/PixMender"
-              
-            />
-          </Col>
+         
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leads}
-              isBlog={false}
-              title="Pragati 2024"
-              description="Created a web application for users to upload IDs, photos, and signatures in one go, with automatic sorting and storage in dedicated database folders. The system features secure data handling and an intuitive interface. This project showcases my expertise in web development, database management, and security."
-              ghLink="https://github.com/Nishka30/Pragati-2024"
-              demoLink="https://www.pragati2024.online/"
-            />
-          </Col>
+         
 
         </Row>
       </Container>
