@@ -10,6 +10,10 @@ import empower from "../../Assets/Projects/empower.gif";
 import Tictactoe from "../../Assets/Projects/Tictactoe.gif";
 import pix from "../../Assets/Projects/pix.png";
 import pragati from "../../Assets/Projects/pragati.png";
+import resource from "../../Assets/Projects/resource.png";
+import inter from "../../Assets/Projects/inter.png";
+import food from "../../Assets/Projects/food.png";
+
 
 
 
@@ -25,6 +29,43 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={resource}
+              isBlog={false}
+              title="Resource Sharing Platform"
+              description="Developed a Resource Station web app for public resource sharing and secured private storage of tasks, deadlines, and 
+              documents. Built with React, Redux, and Firebase, it ensures real-time updates, authentication, and seamless data management. 
+              Integrated an AI Chatbot (Rogue Rose 103B v0.2) 
+              for assistance and a Canva Whiteboard for collaboration, showcasing expertise in full-stack development and AI-driven user engagement."
+              ghLink="https://github.com/Nishka30/ResourceSharingApp"
+              demoLink="https://nishka-notes-app.vercel.app/"
+              
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={inter}
+              isBlog={false}
+              title="AI-Powered Mock Interview Platform"
+              description="Developed an AI-powered interview platform using the MERN stack, where Rogue Rose 103B v0.2 generates job-specific questions, conducts mock interviews, and evaluates responses. Integrated speech-to-text analysis, AI-driven coding challenges, and structured feedback, along with performance tracking and personalized recommendations, showcasing expertise in AI integration and full-stack development."
+              ghLink="https://github.com/Nishka30/PrepVault"
+              demoLink="https://nishka-prep-vault.vercel.app/"
+              
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={food}
+              isBlog={false}
+              title="FoodFire App" 
+              description="Developed a food ordering app using React.js and the Swiggy API, featuring restaurant listings, menu display, real-time search, cart functionality, and lazy loading for optimized performance. Built with Redux and Tailwind CSS for state management and responsive UI."
+              ghLink="https://github.com/Nishka30/FoodApp-in-ReactJS"
+              demoLink="https://foodfire-app.vercel.app/"
+              
+            />
+          </Col>
 
         <Col md={4} className="project-card">
             <ProjectCard
@@ -33,6 +74,7 @@ function Projects() {
               title="Pix Mender"
               description="Created a web application for users to upload IDs, photos, and signatures in one go, with automatic sorting and storage in dedicated database folders. The system features secure data handling and an intuitive interface. This project showcases my expertise in web development, database management, and security."
               ghLink="https://github.com/Nishka30/PixMender"
+              
               
             />
           </Col>
